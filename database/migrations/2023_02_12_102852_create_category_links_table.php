@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('category_links', function (Blueprint $table) {
             $table->id();
-            $table->foreignIdFor(\App\Models\Category::class);
+            $table->foreignIdFor(\App\Models\category::class);
             $table->foreignIdFor(\App\Models\Produkt::class);
             $table->timestamps();
         });
