@@ -162,6 +162,15 @@
             <x-jet-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-jet-responsive-nav-link>
+            <x-jet-responsive-nav-link href="{{ route('produkt.index') }}" :active="request()->routeIs('produkt.index')">
+                {{ __('produkt') }}
+            </x-jet-responsive-nav-link>
+            <x-jet-responsive-nav-link href="{{ route('bak.create') }}" :active="request()->routeIs('bak.create')">
+                {{ __('bakken') }}
+            </x-jet-responsive-nav-link>
+            <x-jet-responsive-nav-link href="{{ route('klabel.create') }}" :active="request()->routeIs('klabel.create')">
+                {{ __('klabel') }}
+            </x-jet-responsive-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->
