@@ -5,12 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Bak extends Model
+class type extends Model
 {
     use HasFactory;
-    protected $fillable = [
-        'name',
-        'code',
-        'description',
-    ];
 }

@@ -31,4 +31,6 @@ Route::group(['middleware' => 'auth'], function () {
     // Route::resource('tasks', \App\Http\Controllers\TasksController::class);
     //  Route::resource('users', \App\Http\Controllers\UserController::class);
     Route::resource('produkt', \App\Http\Controllers\ProduktController::class);
+    Route::resource('klabel', \App\Http\Controllers\KabelsController::class);
+    Route::resource('bak', \App\Http\Controllers\BakController::class);
 });

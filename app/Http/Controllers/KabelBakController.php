@@ -2,27 +2,26 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Bak;
+use App\Models\Kabel_bak;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class BakController extends Controller
+class KabelBakController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(): Response
     {
-        return view('bak.index');
+        //
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function create(): Response
     {
-        return view('bak.create');
         //
     }
 
@@ -37,7 +36,7 @@ class BakController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Bak $bak): Response
+    public function show(Kabel_bak $kabel_bak): Response
     {
         //
     }
@@ -45,16 +44,15 @@ class BakController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Bak $bak)
+    public function edit(Kabel_bak $kabel_bak): Response
     {
-        return view('bak.edit', compact('bak'));
         //
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Bak $bak): RedirectResponse
+    public function update(Request $request, Kabel_bak $kabel_bak): RedirectResponse
     {
         //
     }
@@ -62,7 +60,7 @@ class BakController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Bak $bak): RedirectResponse
+    public function destroy(Kabel_bak $kabel_bak): RedirectResponse
     {
         //
     }
