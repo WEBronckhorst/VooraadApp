@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('kabel_baks', function (Blueprint $table) {
             $table->id();
             $table->foreignIdFor(\App\Models\Kabels::class);
-            $table->foreignIdFor(\App\Models\bak::class);
+            $table->foreignIdFor(\App\Models\Bak::class);
             $table->timestamps();
         });
     }
