@@ -22,7 +22,7 @@ class Kabels extends Model
     ];
     public function Type()
     {
-        return $this->belongsTo(Type::class);
+        return $this->belongsTo(type::class);
     }
     public function SubType()
     {
