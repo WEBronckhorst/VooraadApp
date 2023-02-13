@@ -165,10 +165,10 @@
             <x-jet-responsive-nav-link href="{{ route('produkt.index') }}" :active="request()->routeIs('produkt.index')">
                 {{ __('produkt') }}
             </x-jet-responsive-nav-link>
-            <x-jet-responsive-nav-link href="{{ route('bak.create') }}" :active="request()->routeIs('bak.create')">
+            <x-jet-responsive-nav-link href="{{ route('bak.index') }}" :active="request()->routeIs('bak.index')">
                 {{ __('bakken') }}
             </x-jet-responsive-nav-link>
-            <x-jet-responsive-nav-link href="{{ route('klabel.create') }}" :active="request()->routeIs('klabel.create')">
+            <x-jet-responsive-nav-link href="{{ route('klabel.index') }}" :active="request()->routeIs('klabel.index')">
                 {{ __('klabel') }}
             </x-jet-responsive-nav-link>
         </div>

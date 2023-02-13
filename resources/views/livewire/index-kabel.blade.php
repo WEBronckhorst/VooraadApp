@@ -42,7 +42,7 @@
                                             {{ $klabel->Type->name }}
                                         </td>
                                         <td class="px-3 py-4 text-sm text-gray-500 whitespace-nowrap">
-                                            {{ $klabel->SubType->name }}
+                                            {{ $klabel->SubType->name ?? '' }}
 
                                         </td>
                                         <td class="px-3 py-4 text-sm text-gray-500 whitespace-nowrap">
